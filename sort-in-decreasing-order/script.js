@@ -3,5 +3,5 @@
 function sortArrayInDecreasingOrder(arr) {
     arr.sort( (a, b) => {
         return b-a;
-    })
+    }) 
 }

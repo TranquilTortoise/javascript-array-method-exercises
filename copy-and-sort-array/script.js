@@ -2,7 +2,7 @@
 
 function copySorted(arr) {
 
-    let copiedArr = arr.slice(-(arr.length));
+    let copiedArr = arr.slice();
 
     return copiedArr.sort();
     

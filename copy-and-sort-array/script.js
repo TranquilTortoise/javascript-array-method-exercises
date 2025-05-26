@@ -1,12 +1,9 @@
 // take an array and create a new array that is sorted without changing the old one
 
-function copyAndSortArray(arr) {
+function copySorted(arr) {
 
-    let sortedArr = [];
+    let copiedArr = arr.slice(-(arr.length));
 
-    for (let i = 0; i < arr.length; i++) {
-        sortedArr[i] = arr[i];
-    }
-
-    return sortedArr.sort;
+    return copiedArr.sort();
+    
 }
